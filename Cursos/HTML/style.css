@@ -97,16 +97,21 @@ form {
     padding: 40px 0;
 }
 
-form label {
+form label, form p {
     display: block;
-    margin: 0 0 5px;
+    margin: 10px 0;
     font-size: 20px;
 
 }
 
-form input{
+.input-padrao {
     display: block;
     margin: 0 0 20px;
     padding: 5px 10px;
     width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+    margin-right: 10px;
 }
